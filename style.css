@@ -1,0 +1,236 @@
+/* common styles */
+h1,h2{
+  font-family: "Bodoni Moda", serif;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+h1
+ {
+  
+  font-size: 3em;
+  color: white;
+  -webkit-text-stroke: 1px #E4EAEA;
+}
+.button,.darkbutton:hover,.darkbutton:focus{
+    background: #fff;
+    color: #03B1F4;
+    
+}
+.specialbutton{
+  padding: 1em;
+  width: 20em;
+  font-weight: bold;
+}
+
+.button:hover,.button:focus{
+  background:#03B1F4;
+  color:#fff;
+}
+
+.darkbutton{
+  background-color:#03B1F4;
+  border:none;
+  color:#fff;
+}
+
+a{
+  color:#333
+}
+footer .nav-link{
+  color:#333;
+  text-decoration:underline;
+  font-family: 'Open Sans', sans-serif;
+}
+footer .nav-link,.footer-location p{
+  font-weight: 600!important;
+  font-size: 14px;
+}
+
+footer {
+  background-image: url("assets/images/footer-bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+
+.social-icons i {
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.social-icons .fa-linkedin {
+  background-color: #025f98;
+}
+.social-icons .fa-instagram {
+  background-color: #656668;
+}
+.social-icons .fa-twitter {
+  background-color: #25defd;
+}
+.social-icons .fa-yelp {
+  background-color: #d22b3d;
+}
+.social-icons .fa-facebook {
+  background-color: #71b4fb;
+}
+.social-icons .fa-youtube-play {
+  background-color: #cc0a22;
+}
+
+/* navbar */
+.dropdown-item {
+  color: #03B1F4 !important;
+}
+.Titlelocation{
+  margin-top:10px;
+}
+
+.dropdown {
+  position: static !important;
+  color:rgba(0, 0, 0, 0.75);
+}
+.nav-link.show{
+  background: #fff;
+  color: #000 !important;
+}
+@media (min-width: 992px){
+  .dropdown-menu.show{
+    margin-top: -38px !important;
+    padding-top: 20px;
+    border-top: none;
+  }
+}
+
+.dropdown-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  width: 80% !important;
+  margin-right: auto !important;
+  margin-left: 10% !important;
+  padding: 0 2em 2em 2em;
+}
+
+
+/* index page */
+
+.home-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/images/home.jpeg);
+  
+  background-position: center;
+  height: 34em;
+}
+
+.secondsection {
+  background-image: url("assets/images/home-hands-on-teaching.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:1em;
+}
+
+.thirdsection {
+  background-image: url("assets/images/home-our-locations-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  text-align:center;
+}
+
+@media (min-width: 768px){
+
+.homebuttons{
+  display: flex !important;
+
+}}
+
+/* sign in modal */
+
+.signinbtn{
+
+  background-color: rgba(3, 177, 244, 0.5);
+    color: white;
+}
+.signupbtn{
+  border: 2px solid #03B1F4;
+  color: #03B1F4;
+  background-color: #f8f8f8;
+}
+.signin input {
+  background-color: #e4eaea;
+  color: #FFF;}
+
+  .signin .form-group label {
+    color: red;
+    margin-bottom: 0;
+}
+.signin a,.contact a {
+  color: #03B1F4;
+}
+.theshark{
+  width: 140px;
+    
+     left: -8px !important;
+}
+
+
+
+/* //location page */
+
+.location-hero{
+  display: flex;
+  background-image: url(assets/images/contact-hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+}
+
+/* mobile styles */
+
+
+@media (max-width: 768px){
+  .d-flex{
+    /* display:block !important; */
+  }
+  .specialbutton{
+    margin-top:10px;
+  }
+  .secondsection{
+    background-image:none
+  }
+
+  .footer-location .mx-5{
+    margin: 0px !important;
+    margin-top: 10px !important;
+  }
+  .footer-location .col-auto{
+    width: 100%;
+  }
+  .footer-location p{
+    margin-bottom:2px;
+  }
+  footer .nav-link{
+    font-size: 12px;
+  }
+  .footer-sponsors {
+    text-align: center!important;
+}
+.dropdown-menu {
+  width: 100% !important;
+  margin-left: 0% !important;
+
+}
+}
